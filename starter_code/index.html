@@ -17,8 +17,8 @@
   </head>
 
   <body>
-    <nav>
-      <img src="./images/slack-logo.png" alt="slack_logo" />
+    <nav class="menu" id="nav-menu">
+      <img src="./images/slack-logo.png" alt="slack_logo" class="slack-logo" />
       <ul>
         <li>Why Slack?</li>
         <li>Pricing</li>
@@ -26,7 +26,7 @@
         <li>Your Workspaces</li>
       </ul>
     </nav>
-    <header>
+    <header class="section1">
       <img src="./images/home_talking.png" alt="home_work_happening" />
       <h1>Where Work Happens</h1>
       <p>
@@ -35,29 +35,39 @@
         an A/B test, plan your next office opening, and more, Slack has you
         covered.
       </p>
+     <div class="email">
+      <input type="email" class="email" name="email" value="E-mail Adress">
+     </div>
       <button type="button" name="button">GET STARTED</button>
       <p>Already using Slack? <a href="#">Sign in</a></p>
     </header>
     <main>
-      <div>
-        <h2>You're in good company</h2>
+      <div class="section2">
+        <h2><center>You're in good company</center></h2>
         <p>
           Millions of people around the world have already made Slack the place
           where their work happens.
         </p>
+        <div>
+          <center>
         <button>DISCOVER WHY</button>
-        <img src="./images/airbnb-logo.png" alt="" />
-        <img src="./images/capital-one-logo.png" alt="" />
-        <img src="./images/harvard-logo.png" alt="" />
-        <img src="./images/los-angeles-times-logo.png" alt="" />
-        <img src="./images/oracle-logo.png" alt="" />
-        <img src="./images/ticketmaster-logo.png" alt="" />
+        <img src="./images/airbnb-logo.png" alt="" class="img-client" />
+        <img src="./images/capital-one-logo.png" alt=""  class="img-client"/>
+        <img src="./images/harvard-logo.png" alt=""  class="img-client"/>
+        <img src="./images/los-angeles-times-logo.png" alt=""  class="img-client" />
+        <img src="./images/oracle-logo.png" alt=""  class="img-client"/>
+        <img src="./images/ticketmaster-logo.png" alt=""  class="img-client"/>
+         </center>
       </div>
-      <div>
-        <p>Try it for free</p>
+
+      <center><div>
+        <h3><p>Try it for free</p></h3>
         <p>Already using Slack? <a href="">Sign in</a></p>
+        <div class="email">
+          <input type="email" class="email" name="email" value="E-mail Adress">
+         </div>
         <button type="button" name="button">GET STARTED</button>
-      </div>
+      </div></center>
     </main>
     <footer>
       <div>

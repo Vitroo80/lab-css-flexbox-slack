@@ -5,3 +5,71 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5b5e6d;
+}
+
+h1 {
+    color: #2C303F;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    color: #2C303F;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+
+h3 {
+    font-size: 20px;
+    
+}
+
+.slack-logo {
+    width: 150px;
+    padding-left: 1%;
+}
+
+.section1, .section2, .section3  {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.section2 {
+    background-color:#F4F3F4 ;
+    padding: 20px;
+}
+
+button {
+    background-color: #192592 ;
+    color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-weight: bolder;
+}
+
+.email {
+    color: #b9b9b9;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border-color: #b9b9b9;
+}
+
+.img-client {
+    display: block;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+
