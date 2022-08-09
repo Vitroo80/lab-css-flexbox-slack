@@ -20,12 +20,15 @@ h2 {
     color: #2C303F;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 }   
 
 h3 {
     font-size: 20px;
     
 }
+
+
 
 .slack-logo {
     width: 150px;
@@ -83,10 +86,6 @@ button {
     flex-wrap: wrap;
 }
 
-.container {
-
-}
-
 .final {
     padding: 50px;
     background-color:#F4F3F4 ;
@@ -125,7 +124,9 @@ button {
     font-size: 15px;
     padding-bottom: 20px;
     flex-direction: row;
+    
    
 }
 
-li { list-style-type: none; }.
+
+li { list-style-type: none; }
