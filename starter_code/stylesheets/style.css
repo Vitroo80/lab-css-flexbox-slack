@@ -151,6 +151,23 @@ button {
     padding-right: 30px;
 }
 
+#menu-escrito {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2C303F;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+#workb {
+    border-style: solid;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+
 li { list-style-type: none; }
 
 @media only screen and (min-width: 1024px){
